@@ -11,6 +11,7 @@ const { v4: uuidv4 } = require('uuid');
 const FormData = require('form-data');
 const cheerio = require('cheerio')
 const moment = require("moment-timezone")
+const { sendFromAI } = require('@neoxr/wb')
 const { addExif } = require('./App/function/exif')
 const { smsg, formatDate, getTime, getGroupAdmins, formatp, await, sleep, runtime, clockString, msToDate, sort, toNumber, enumGetKey, fetchJson, getBuffer, json, delay, format, logic, generateProfilePicture, parseMention, getRandom, fetchBuffer, buffergif, GIFBufferToVideoBuffer, totalcase } = require('./App/function/myfunc'); 
 const { bytesToSize, checkBandwidth, formatSize, jsonformat, nganuin, shorturl, color } = require("./App/function/funcc");
