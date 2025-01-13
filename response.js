@@ -122,6 +122,12 @@ Kategori: {kategori}
         }
     };
 }
+
+ // contoh kirim label ai 
+async function AmbalabuAi () {
+
+    lilychan.sendFromAi(m.chat, 'hi', m)
+}
 // function jual beli 
 
 // MembuatProdukId
